@@ -1,0 +1,61 @@
+
+// App Colors
+$ptsdBlue: 			#a3c3d2;
+$ptsdRed: 			#dc6d6d;
+$ptsdDkGray: 		#808080;
+$ptsdLtGray:		#dedede;
+
+// Ionic Default Overrides
+$positive: 		$ptsdBlue;
+$calm: 			$ptsdRed;
+$stable: 		$ptsdDkGray;
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "../www/lib/ionic/scss/ionic";
+
+
+//---------------------
+// Base Elements
+//----------------------------------------------------------------------------------------------
+body {
+	background: #666;
+	color: ($ptsdBlue - #888);
+}
+h1, h2, h3 {color: ($ptsdBlue - #888);}
+.scroll > h1,
+.scroll > h2,
+.scroll > h3,
+.scroll > p {
+	padding: 0 8px;
+}
+h1 {
+	font-size: 2.0em;
+	text-align: center;
+	color: $calm;
+}
+p {
+	color: ($ptsdBlue - #888);
+}
+
+
+//---------------------
+// Navigation
+//----------------------------------------------------------------------------------------------
+
+.tabs {
+	height: 64px;
+	padding-top: 10px;
+}
+.tab-item {
+	color: ($ptsdBlue - #888);
+	
+	&.tab-item-active, &.tab-item-activated {
+		
+	}
+}
+
+
+

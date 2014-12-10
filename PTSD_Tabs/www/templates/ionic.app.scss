@@ -1,0 +1,47 @@
+
+// The path for the ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Default Colors
+// -------------------------------
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #4a87ee !default;
+$calm:                            #43cee6 !default;
+$balanced:                        #66cc33 !default;
+$energized:                       #f0b840 !default;
+$assertive:                       #ef4e3a !default;
+$royal:                           #8a6de9 !default;
+$dark:                            #444 !default;
+
+// Overrides
+$positive: #356b95;
+$calm: #953535;
+$stable: #16a085;
+
+// Include all base Ionic styles
+@import "../lib/ionic/scss/ionic";
+
+
+//---------------------
+// Base Elements
+//----------------------------------------------------------------------------------------------
+body {
+	background-color: #ecf0f1;
+	color: #2c3e50;
+}
+h1, h2, h3 {color: #356b95;}
+.scroll > h1,
+.scroll > h2,
+.scroll > h3,
+.scroll > p {
+	padding: 0 8px;
+}
+p {
+	color: #2c3e50;
+}
+
+//---------------------
+// Navigation
+//----------------------------------------------------------------------------------------------
